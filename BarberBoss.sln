@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3F91A71F-8A14-43AF-A432-DBCEBCE3DA8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6696FC24-8F16-4C83-BE8C-E45522AA5A8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberBoss.Application", "src\BarberBoss.Application\BarberBoss.Application.csproj", "{DEEA1C41-4365-4CAE-8B95-41C2C65DB10C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberBoss.Communication", "src\BarberBoss.Communication\BarberBoss.Communication.csproj", "{31DC8D5F-E242-4BCE-ADBE-D35A09336FA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberBoss.Domain", "src\BarberBoss.Domain\BarberBoss.Domain.csproj", "{5543E6F9-734D-4CFA-8D2D-9CD31C197938}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberBoss.Infrastructure", "src\BarberBoss.Infrastructure\BarberBoss.Infrastructure.csproj", "{BA23627C-9A48-4C5C-BA88-DAD39E025DD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberBoss.Exception", "src\BarberBoss.Exception\BarberBoss.Exception.csproj", "{714A4436-6205-41B4-86AB-529A5FAAF4C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberBoss.Api", "src\BarberBoss.Api\BarberBoss.Api.csproj", "{84D045F6-7105-41A5-BA40-788741EBDB11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DEEA1C41-4365-4CAE-8B95-41C2C65DB10C} = {3F91A71F-8A14-43AF-A432-DBCEBCE3DA8C}
+		{31DC8D5F-E242-4BCE-ADBE-D35A09336FA1} = {3F91A71F-8A14-43AF-A432-DBCEBCE3DA8C}
+		{5543E6F9-734D-4CFA-8D2D-9CD31C197938} = {3F91A71F-8A14-43AF-A432-DBCEBCE3DA8C}
+		{BA23627C-9A48-4C5C-BA88-DAD39E025DD8} = {3F91A71F-8A14-43AF-A432-DBCEBCE3DA8C}
+		{714A4436-6205-41B4-86AB-529A5FAAF4C7} = {3F91A71F-8A14-43AF-A432-DBCEBCE3DA8C}
+		{84D045F6-7105-41A5-BA40-788741EBDB11} = {3F91A71F-8A14-43AF-A432-DBCEBCE3DA8C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEEA1C41-4365-4CAE-8B95-41C2C65DB10C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEEA1C41-4365-4CAE-8B95-41C2C65DB10C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEEA1C41-4365-4CAE-8B95-41C2C65DB10C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEEA1C41-4365-4CAE-8B95-41C2C65DB10C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31DC8D5F-E242-4BCE-ADBE-D35A09336FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31DC8D5F-E242-4BCE-ADBE-D35A09336FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31DC8D5F-E242-4BCE-ADBE-D35A09336FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31DC8D5F-E242-4BCE-ADBE-D35A09336FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5543E6F9-734D-4CFA-8D2D-9CD31C197938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5543E6F9-734D-4CFA-8D2D-9CD31C197938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5543E6F9-734D-4CFA-8D2D-9CD31C197938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5543E6F9-734D-4CFA-8D2D-9CD31C197938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA23627C-9A48-4C5C-BA88-DAD39E025DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA23627C-9A48-4C5C-BA88-DAD39E025DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA23627C-9A48-4C5C-BA88-DAD39E025DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA23627C-9A48-4C5C-BA88-DAD39E025DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{714A4436-6205-41B4-86AB-529A5FAAF4C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{714A4436-6205-41B4-86AB-529A5FAAF4C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{714A4436-6205-41B4-86AB-529A5FAAF4C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{714A4436-6205-41B4-86AB-529A5FAAF4C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84D045F6-7105-41A5-BA40-788741EBDB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84D045F6-7105-41A5-BA40-788741EBDB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84D045F6-7105-41A5-BA40-788741EBDB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84D045F6-7105-41A5-BA40-788741EBDB11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
