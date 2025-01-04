@@ -2,7 +2,7 @@ using BarberBoss.Domain.Repositories;
 
 namespace BarberBoss.Infrastructure.DataAccess;
 
-public class UnitOfWork : IUnitOfWork
+internal class UnitOfWork : IUnitOfWork
 {
     private readonly BarberBossDbContext _dbContext;
     

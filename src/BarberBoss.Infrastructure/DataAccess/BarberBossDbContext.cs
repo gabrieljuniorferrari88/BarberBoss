@@ -1,9 +1,8 @@
 using BarberBoss.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-
 namespace BarberBoss.Infrastructure.DataAccess;
 
-public class BarberBossDbContext : DbContext
+internal class BarberBossDbContext : DbContext
 {
     public BarberBossDbContext(DbContextOptions options) : base(options) { }
     

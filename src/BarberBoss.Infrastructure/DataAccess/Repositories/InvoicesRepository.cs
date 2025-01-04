@@ -60,7 +60,7 @@ internal class InvoicesRepository : IInvoicesReadOnlyRepository, IInvoicesUpdate
         return true;
     }
 
-    public void Update( Invoice invoice)
+    public void Update(Invoice invoice)
     {
         _dbContext.Invoices.Update(invoice);
     }
